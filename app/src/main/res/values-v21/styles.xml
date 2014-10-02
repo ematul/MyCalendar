@@ -1,0 +1,17 @@
+
+    <resources>
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="android:Theme.Material">
+            <item name="android:colorPrimary">@color/primary</item>
+            <!--   darker variant of colorPrimary (for status bar, contextual app bars) -->
+            <item name="android:colorPrimaryDark">@color/primary_dark</item>
+            <!--   theme UI controls like checkboxes and text fields -->
+            <item name="android:colorAccent">@color/accent</item>
+        </style>
+
+        <color name="primary_dark">#1a237e</color>
+        <color name="primary">#3f51b5</color>
+        <color name="accent">#304ffe</color>
+        <color name="acent_button">#304ffe</color>
+    </resources>
+
