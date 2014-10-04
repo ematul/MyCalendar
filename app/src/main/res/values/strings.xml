@@ -5,4 +5,22 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="nav_drawer_items">
+        <item >Calendario</item>
+        <item >Anotaciones</item>
+        <item >Cursos</item>
+        <item >Notas</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/calendar</item>
+        <item>@drawable/anotaciones</item>
+        <item>@drawable/cursos</item>
+        <item>@drawable/notas</item>
+    </array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+
 </resources>
