@@ -3,6 +3,7 @@ package com.dsoft.mycalendar;
 /**
  * Created by Marco Barrios on 03/10/2014.
  */
+
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -50,10 +51,14 @@ public class NavDrawerListAdapter extends BaseAdapter {
         ImageView imgIcon = (ImageView) convertView.findViewById(R.id.icon);
         TextView txtTitle = (TextView) convertView.findViewById(R.id.title);
 
+
         imgIcon.setImageResource(navDrawerItems.get(position).getIcon());
         txtTitle.setText(navDrawerItems.get(position).getTitle());
 
         return convertView;
     }
 
+    public Context getContext() {
+        return context;
+    }
 }
